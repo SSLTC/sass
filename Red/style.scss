@@ -1,0 +1,5 @@
+@use "../base" with (
+    $body-color: red,
+    $heading-color: rgb(202, 47, 70),
+    $messages-color: rgb(224, 216, 216));
+@forward "../style";

@@ -1,4 +1,4 @@
-.warning, .error, .success, .message {
+body .warning, body .error, body .success, body .message {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
@@ -16,30 +16,29 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
 }
-
-nav {
+body nav {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
 }
-
-a {
+body a {
   text-decoration: none;
   color: #000;
   background-color: darkgray;
   padding: 0.8rem;
 }
-
-article {
+body article {
   display: flex;
   flex-wrap: wrap;
 }
-article section {
+body article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   background-color: #000;
   padding: 16px;
@@ -48,11 +47,11 @@ article section {
   overflow: auto;
   box-sizing: border-box;
 }
-article section #selling-points {
+body article section #selling-points {
   flex-grow: 2;
   flex-basis: 100%;
 }
-article pre {
+body article pre {
   background: #000;
   border: 1px solid #ddd;
   color: #666;
@@ -66,44 +65,39 @@ article pre {
   display: block;
   white-space: pre-wrap;
 }
-article pre .before {
+body article pre .before {
   float: left;
   width: 40%;
 }
-article pre .after {
+body article pre .after {
   float: right;
   width: 40%;
 }
-
-h1,
-h2,
-h6 {
+body h1,
+body h2,
+body h6 {
   color: rgb(202, 47, 70);
 }
-
-h1 {
+body h1 {
   text-align: center;
 }
-
-h6 {
+body h6 {
   text-align: center;
   font-size: 2em;
   padding: 32px;
   margin-bottom: 0px;
 }
-
-.message {
+body .message {
   background-color: #000;
 }
-
-.success {
+body .success {
   background-color: green;
 }
-
-.error {
+body .error {
   background-color: red;
 }
-
-.warning {
+body .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
