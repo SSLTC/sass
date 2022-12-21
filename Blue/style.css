@@ -7,7 +7,7 @@
 
 body {
   font: 100% "Space Mono", monospace;
-  color: red;
+  color: rgb(27, 27, 197);
   margin: 0px;
   padding: 0px;
   background-color: #000;
@@ -40,10 +40,8 @@ article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
-  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  background-color: #000;
+  background-color: rgb(228, 227, 227);
   padding: 16px;
   margin: 16px;
   clear: both;
@@ -80,7 +78,7 @@ article pre .after {
 h1,
 h2,
 h6 {
-  color: rgb(202, 47, 70);
+  color: rgb(57, 103, 171);
 }
 
 h1 {
@@ -108,6 +106,4 @@ h6 {
 
 .warning {
   background-color: orange;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
